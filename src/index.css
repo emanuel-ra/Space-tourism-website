@@ -3,15 +3,22 @@
 @tailwind utilities;
 
 @layer base{
-  main{  }
+  *{ }
+  main{ }
 }
 
 @layer components{
-  #nav_link{
-    @apply block h-full flex items-center text-white font-normal
+  #nav_link_mobile{
+    @apply block text-white w-full pl-8 text-lg font-normal hover:border-l-4 hover:border-white/25
   }
-  nav a.is-active{
+  #nav_link{
+    @apply block h-full flex items-center text-white font-normal hover:border-b-4 hover:border-white/25
+  }
+  #nav_link.is-active{
     @apply border-b-4 border-white
+  }
+  #nav_link_mobile.is-active-mobile{
+    @apply border-l-4 border-white
   }
   .background-home{
     @apply bg-cover bg-[url('./assets/home/background-mobile.jpg')] md:bg-[url('./assets/home/background-tablet.jpg')] lg:bg-[url('./assets/home/background-desktop.jpg')]

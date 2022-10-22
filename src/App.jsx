@@ -7,12 +7,13 @@ import Home from "./Home";
 import Destination from "./Destination";
 import Crew from "./Crew";
 import Technology from "./Technology";
-
+import Aside from "./components/Aside";
 function App() {
   return (
     <>
       <main>
         <Header/>       
+        <Aside />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destination" element={<Destination />} />
