@@ -13,6 +13,7 @@ function Header() {
       <section className="w-1/2 flex justify-between items-center relative pl-6 lg:pl-12">
         <img src={Logo} alt="Logo" />
         <span className="hidden h-1 w-[90%] border-b-[1px] absolute -right-20 z-10 lg:block"></span>
+        <h1 className="sr-only">Space Tourism Website</h1>
       </section>
 
       <nav className="bg-white/25 w-10/12 hidden md:flex md:justify-center md:backdrop-blur-sm lg:w-1/2">
