@@ -2,11 +2,18 @@ import {data} from "../data/data"
 
 function SliderDestination() {
     let destinations = data.destinations;
-  return (
+
+
+  return (    
     <>
         <section className="bg-white">
-            {destinations.map( item => ((
-                <h1>a</h1>
+            {destinations.map( (item,index) => (( 
+                
+                
+               
+                <article className="" key={index}>
+                    <img src={new URL(item.images.png, import.meta.url).href} alt={item.name} />
+                </article>
             )))}
         </section>
     </>
