@@ -8,11 +8,9 @@ function SliderDestination() {
     <>
         <section className="bg-white">
             {destinations.map( (item,index) => (( 
-                
-                
-               
+                                               
                 <article className="" key={index}>
-                    <img src={new URL(item.images.png, import.meta.url).href} alt={item.name} />
+                    <img src={new URL(item.images.img, import.meta.url).href} alt={item.name} />
                 </article>
             )))}
         </section>
