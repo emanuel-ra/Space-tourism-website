@@ -17,7 +17,7 @@ function Body() {
       </article>
 
       <article className="flex items-center justify-center">
-        <div className="flex items-center rounded-full w-[55%] h-[100%] md:w-[40%] md:h-[90%] lg:w-[40%] lg:h-[70%] lg:p-10 hover:bg-white/25 hover:backdrop-blur-sm ">
+        <div className="flex items-center rounded-full w-[10rem] h-[10rem] md:w-[40%] md:h-[90%] lg:w-[40%] lg:h-[70%] lg:p-10 hover:bg-white/25 hover:backdrop-blur-sm ">
             <button className="bg-white h-full w-full  rounded-full text-2xl  md:text-4xl shadow-lg uppercase">Explore</button>
         </div>
       </article>
