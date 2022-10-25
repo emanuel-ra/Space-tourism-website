@@ -32,4 +32,11 @@
   .background-technology{
     @apply bg-cover bg-[url('./assets/technology/background-mobile.jpg')] md:bg-[url('./assets/technology/background-tablet.jpg')] lg:bg-[url('./assets/technology/background-desktop.jpg')]
   }
+  /* DESTINATION */
+  .card-destination li{
+    @apply text-xl hover:border-b-2 hover:border-gray-500
+  }
+  .card-destination li.active{
+    @apply border-b-2 border-white
+  }
 }

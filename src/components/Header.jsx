@@ -9,8 +9,9 @@ import {routes} from "../data/menu"
 
 function Header() {
   return (
-    <header className="min-w-full absolute justify-between items-center flex lg:p-10">
-      <section className="w-1/2 flex justify-between items-center relative pl-6 lg:pl-12">
+    <header className="min-w-full absolute justify-between items-center flex lg:py-10 lg:pl-10">
+
+      <section className="lg:w-1/2 flex lg:justify-between lg:items-center relative pl-6 lg:pl-12">
         <img src={Logo} alt="Logo" />
         <span className="hidden h-1 w-[90%] border-b-[1px] absolute -right-20 z-10 lg:block"></span>
         <h1 className="sr-only">Space Tourism Website</h1>
@@ -24,9 +25,7 @@ function Header() {
                 id="nav_link"
                 to={route.path}
                 end
-                className={({ isActive }) =>
-                  isActive ? "is-active" : undefined
-                }
+                className={({ isActive }) => isActive ? "is-active" : undefined }
               >
                 {route.text}
               </NavLink>
