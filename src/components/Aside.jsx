@@ -5,7 +5,7 @@ import close from "../assets/shared/icon-close.svg";
 function Aside() {
   return (
     <>
-        <aside id="side_mobile_menu" className="w-[65%] min-h-screen absolute bg-white/10 backdrop-blur-md right-0 transition-all ease-in-out duration-150 hidden">
+        <aside id="side_mobile_menu" className="w-[65%] min-h-screen absolute z-10 bg-white/10 backdrop-blur-md right-0 transition-all ease-in-out duration-150 hidden">
             <section className="w-full flex justify-end p-6">
                 <button onClick={
                         () => {
