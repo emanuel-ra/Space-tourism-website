@@ -5,8 +5,6 @@ import hamburger from "../assets/shared/icon-hamburger.svg";
 
 import {routes} from "../data/menu"
 
-
-
 function Header() {
   return (
     <header className="min-w-full absolute justify-between items-center flex lg:py-10 lg:pl-10">
