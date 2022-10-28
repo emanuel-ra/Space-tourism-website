@@ -2,9 +2,6 @@ import SliderDestination from "../components/SliderDestination"
 
 function Body() {
   
-  let crews = data.crew;
-  const [crew, setCrew] = new useState(0);
-
   return (
     <section className="w-full mt-24 lg:mt-48 lg:px-48">
         <article className="px-2 py-2 mt-10">

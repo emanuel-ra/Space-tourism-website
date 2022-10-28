@@ -5,6 +5,7 @@
 @layer base{
   *{ }
   main{ }
+ 
 }
 
 @layer components{
@@ -38,5 +39,12 @@
   }
   .card-destination li.active{
     @apply border-b-2 border-white
+  }
+  /* crew  */
+  .dots-crew{
+    @apply w-4 h-4 rounded-full bg-white/50
+  }
+  .dots-crew.active{
+    @apply bg-white
   }
 }

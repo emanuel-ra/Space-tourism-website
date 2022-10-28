@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { data } from "../data/data";
 
 function SliderDestination() {
+  
   let destinations = data.destinations;
   const [destination, setDestination] = new useState(0);
 
