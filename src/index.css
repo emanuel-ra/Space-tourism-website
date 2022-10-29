@@ -47,4 +47,7 @@
   .dots-crew.active{
     @apply bg-white
   }
+  .technology-btn.active{
+    @apply bg-white text-black
+  }
 }

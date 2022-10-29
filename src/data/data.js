@@ -112,8 +112,8 @@ export const data = {
     {
       name: "Launch vehicle",
       images: {
-        portrait: "../assets/technology/image-launch-vehicle-portrait.jpg",
-        landscape: "../assets/technology/image-launch-vehicle-landscape.jpg",
+        //portrait: "../assets/technology/image-launch-vehicle-portrait.jpg",
+        //landscape: "../assets/technology/image-launch-vehicle-landscape.jpg",
         portrait: vehicle ,
         landscape: vehicle_landscape ,
       },
@@ -123,8 +123,8 @@ export const data = {
     {
       name: "Spaceport",
       images: {
-        portrait: "../assets/technology/image-spaceport-portrait.jpg",
-        landscape: "../assets/technology/image-spaceport-landscape.jpg",
+        //portrait: "../assets/technology/image-spaceport-portrait.jpg",
+        //landscape: "../assets/technology/image-spaceport-landscape.jpg",
         portrait: spaceport ,
         landscape: spaceport_landscape ,
       },
@@ -134,8 +134,8 @@ export const data = {
     {
       name: "Space capsule",
       images: {
-        portrait: "../assets/technology/image-space-capsule-portrait.jpg",
-        landscape: "../assets/technology/image-space-capsule-landscape.jpg",
+        //portrait: "../assets/technology/image-space-capsule-portrait.jpg",
+        //landscape: "../assets/technology/image-space-capsule-landscape.jpg",
         portrait: capsule ,
         landscape: capsule_landscape ,
       },

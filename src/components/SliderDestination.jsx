@@ -12,9 +12,7 @@ function SliderDestination() {
 
         {destinations.map((item, index) => (
           <article
-            className={`flex flex-col justify-center items-center lg:flex-row lg:justify-around card-destination ${
-              destination != index && "hidden"
-            } ${destination}`}
+            className={`flex flex-col justify-center items-center lg:flex-row lg:justify-around card-destination ${destination != index && "hidden"} ${destination}`}
             key={index}
           >
             <img src={new URL(item.images.img, import.meta.url).href} alt={item.name}
@@ -26,7 +24,7 @@ function SliderDestination() {
               <ul className="flex justify-center lg:justify-start space-x-4 my-7">
                 {destinations.map((option, i) => (
                   <li key={i} className={`${destination === i && "active"}`}>
-                    <button className="uppercase" id={`btn_${option.name} destinations_options`}  onClick={(e) => { setDestination(i); }} >
+                    <button className="uppercase" onClick={(e) => { setDestination(i); }} >
                       {option.name}
                     </button>
                   </li>
