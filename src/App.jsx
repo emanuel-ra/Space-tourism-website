@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header";
-
+import Footer from "./components/Footer";
 import Home from "./Home";
 import Destination from "./Destination";
 import Crew from "./Crew";
@@ -22,6 +22,7 @@ function App() {
           <Route path="/technology" element={<Technology />} />
           <Route path="*" element={<h1>not found</h1>} />
         </Routes>
+        <Footer />
       </main>
     </>
   );
